@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeForge - Platform Konversi dan Optimasi Kode Multi-Bahasa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CodeMirror CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/theme/dracula.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CodeForge</h1>
+            <p>Platform Konversi dan Optimasi Kode Multi-Bahasa</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="converter">Konversi Kode</button>
+            <button class="tab-btn" data-tab="optimizer">Optimasi Kode</button>
+            <button class="tab-btn" data-tab="disassembler">Disassembler</button>
+            <button class="tab-btn" data-tab="playground">Playground</button>
+        </div>
+
+        <div class="tab-content active" id="converter">
+            <h2>Konversi Kode</h2>
+            <div class="editor-container">
+                <div class="source-container">
+                    <div class="language-selector">
+                        <label for="source-language">Bahasa Sumber:</label>
+                        <select id="source-language">
+                            <option value="javascript">JavaScript</option>
+                            <option value="php">PHP</option>
+                            <option value="lua">Lua</option>
+                            <option value="bash">Bash</option>
+                        </select>
+                    </div>
+                    <div id="source-editor" class="code-editor"></div>
+                </div>
+                
+                <div class="controls">
+                    <button id="convert-btn">Konversi &rarr;</button>
+                </div>
+                
+                <div class="target-container">
+                    <div class="language-selector">
+                        <label for="target-language">Bahasa Target:</label>
+                        <select id="target-language">
+                            <option value="javascript">JavaScript</option>
+                            <option value="php">PHP</option>
+                            <option value="lua">Lua</option>
+                            <option value="bash">Bash</option>
+                        </select>
+                    </div>
+                    <div id="target-editor" class="code-editor"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content" id="optimizer">
+            <h2>Optimasi Kode</h2>
+            <div class="editor-container">
+                <div class="source-container full-width">
+                    <div class="language-selector">
+                        <label for="optimize-language">Bahasa:</label>
+                        <select id="optimize-language">
+                            <option value="javascript">JavaScript</option>
+                            <option value="php">PHP</option>
+                            <option value="lua">Lua</option>
+                            <option value="bash">Bash</option>
+                        </select>
+                    </div>
+                    <div id="optimize-editor" class="code-editor"></div>
+                    <button id="optimize-btn">Analisis & Optimasi</button>
+                </div>
+                
+                <div class="optimization-results">
+                    <h3>Hasil Analisis</h3>
+                    <div id="optimization-output">
+                        <p>Hasil analisis akan muncul di sini...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content" id="disassembler">
+            <h2>Disassembler</h2>
+            <div class="disassembler-container">
+                <div class="upload-section">
+                    <h3>Upload File Biner</h3>
+                    <input type="file" id="binary-file" accept=".exe,.dll,.so,.bin">
+                    <button id="disassemble-btn">Disassemble</button>
+                </div>
+                <div class="assembly-output">
+                    <h3>Output Assembly</h3>
+                    <div id="assembly-code" class="code-output">
+                        <p>Output assembly akan muncul di sini...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content" id="playground">
+            <h2>Code Playground</h2>
+            <div class="playground-container">
+                <div class="language-selector">
+                    <label for="playground-language">Bahasa:</label>
+                    <select id="playground-language">
+                        <option value="javascript">JavaScript</option>
+                        <option value="php">PHP</option>
+                        <option value="lua">Lua</option>
+                        <option value="bash">Bash</option>
+                    </select>
+                </div>
+                <div id="playground-editor" class="code-editor"></div>
+                <button id="run-code-btn">Jalankan Kode</button>
+                <div class="output-container">
+                    <h3>Output</h3>
+                    <div id="code-output" class="code-output">
+                        <p>Output akan muncul di sini...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 CodeForge - Platform Konversi dan Optimasi Kode Multi-Bahasa</p>
+        </div>
+    </footer>
+
+    <!-- CodeMirror JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/javascript/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/php/php.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/lua/lua.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/shell/shell.min.js"></script>
+    
+    <!-- App JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
