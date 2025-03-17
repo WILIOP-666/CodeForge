@@ -1,123 +1,129 @@
+Here’s the translation of your text from English to Indonesian, keeping the structure intact:
+
+---
+
 # CodeForge
 
 ## Platform Konversi dan Optimasi Kode Multi-Bahasa
 
-CodeForge is a powerful web-based platform for code conversion, optimization, and analysis across multiple programming languages. This tool helps developers translate code between different languages, optimize existing code, disassemble binary files, and experiment with code in an interactive playground.
+CodeForge adalah platform berbasis web yang kuat untuk konversi, optimasi, dan analisis kode di berbagai bahasa pemrograman. Alat ini membantu pengembang menerjemahkan kode antar bahasa yang berbeda, mengoptimalkan kode yang sudah ada, membongkar file biner, dan bereksperimen dengan kode di playground interaktif.
 
-![CodeForge Platform](https://via.placeholder.com/800x400?text=CodeForge+Platform)
+![Platform CodeForge](https://via.placeholder.com/800x400?text=Platform+CodeForge)
 
-## Features
+## Fitur
 
-### 1. Code Conversion
+### 1. Konversi Kode
 
-Translate your code between multiple programming languages:
+Terjemahkan kode Anda antar berbagai bahasa pemrograman:
 - JavaScript
 - PHP
 - Lua
 - Bash
 
-Simply paste your source code, select the target language, and let CodeForge handle the conversion.
+Cukup tempelkan kode sumber Anda, pilih bahasa target, dan biarkan CodeForge menangani konversinya.
 
-### 2. Code Optimization
+### 2. Optimasi Kode
 
-Improve your code's performance and readability with our optimization tools:
-- Identify performance bottlenecks
-- Suggest code improvements
-- Analyze code complexity
-- Optimize resource usage
+Tingkatkan performa dan keterbacaan kode Anda dengan alat optimasi kami:
+- Identifikasi hambatan performa
+- Sarankan perbaikan kode
+- Analisis kompleksitas kode
+- Optimalkan penggunaan sumber daya
 
 ### 3. Disassembler
 
-Convert binary files back to assembly code for analysis:
-- Upload executable files (.exe, .dll)
-- Upload shared objects (.so)
-- Upload other binary files (.bin)
-- View the disassembled code with syntax highlighting
+Konversi file biner kembali ke kode assembly untuk analisis:
+- Unggah file eksekutabel (.exe, .dll)
+- Unggah objek bersama (.so)
+- Unggah file biner lainnya (.bin)
+- Lihat kode yang dibongkar dengan penyorotan sintaks
 
-### 4. Code Playground
+### 4. Playground Kode
 
-Test and experiment with code directly in your browser:
-- Write and run code in multiple languages
-- See output in real-time
-- Test code snippets quickly
-- Perfect for learning and experimentation
+Uji dan eksperimen dengan kode langsung di peramban Anda:
+- Tulis dan jalankan kode dalam berbagai bahasa
+- Lihat keluaran secara real-time
+- Uji cuplikan kode dengan cepat
+- Sempurna untuk belajar dan bereksperimen
 
-## Installation
+## Instalasi
 
-CodeForge is a web-based application that runs directly in your browser. To set up a local development environment:
+CodeForge adalah aplikasi berbasis web yang berjalan langsung di peramban Anda. Untuk menyiapkan lingkungan pengembangan lokal:
 
-1. Clone the repository:
+1. Klon repositori:
    ```
-   git clone https://github.com/yourusername/codeforge.git
+   git clone https://github.com/WILIOP-666/codeforge.git
    cd codeforge
    ```
 
-2. Open the project in your preferred code editor
+2. Buka proyek di editor kode pilihan Anda
 
-3. Launch the application using a local web server. For example, with Python:
+3. Jalankan aplikasi menggunakan server web lokal. Misalnya, dengan Python:
    ```
    # Python 3
    python -m http.server 8000
    ```
 
-4. Open your browser and navigate to `http://localhost:8000`
+4. Buka peramban Anda dan navigasikan ke `http://localhost:8000`
 
-## Usage Examples
+## Contoh Penggunaan
 
-### Converting JavaScript to PHP
+### Mengonversi JavaScript ke PHP
 
-1. Select "JavaScript" as the source language
-2. Paste your JavaScript code in the source editor
-3. Select "PHP" as the target language
-4. Click the "Konversi" button
-5. View the converted PHP code in the target editor
+1. Pilih "JavaScript" sebagai bahasa sumber
+2. Tempelkan kode JavaScript Anda di editor sumber
+3. Pilih "PHP" sebagai bahasa target
+4. Klik tombol "Konversi"
+5. Lihat kode PHP yang dikonversi di editor target
 
-### Optimizing Code
+### Mengoptimalkan Kode
 
-1. Select your code's language from the dropdown
-2. Paste your code in the editor
-3. Click "Analisis & Optimasi"
-4. Review the optimization suggestions
+1. Pilih bahasa kode Anda dari dropdown
+2. Tempelkan kode Anda di editor
+3. Klik "Analisis & Optimasi"
+4. Tinjau saran optimasi
 
-### Using the Playground
+### Menggunakan Playground
 
-1. Select your preferred language
-2. Write or paste your code in the editor
-3. Click "Jalankan Kode"
-4. View the output in the results panel
+1. Pilih bahasa yang Anda inginkan
+2. Tulis atau tempelkan kode Anda di editor
+3. Klik "Jalankan Kode"
+4. Lihat keluaran di panel hasil
 
-## Technologies Used
+## Teknologi yang Digunakan
 
-- HTML5, CSS3, and JavaScript
-- [CodeMirror](https://codemirror.net/) for code editing and syntax highlighting
-- Custom code conversion and optimization algorithms
+- HTML5, CSS3, dan JavaScript
+- [CodeMirror](https://codemirror.net/) untuk pengeditan kode dan penyorotan sintaks
+- Algoritma konversi dan optimasi kode kustom
 
-## Browser Compatibility
+## Kompatibilitas Peramban
 
-CodeForge works best in modern browsers:
-- Chrome (recommended)
+CodeForge bekerja paling baik di peramban modern:
+- Chrome (direkomendasikan)
 - Firefox
 - Edge
 - Safari
 
-## Contributing
+## Kontribusi
 
-Contributions are welcome! If you'd like to contribute to CodeForge, please:
+Kontribusi sangat diterima! Jika Anda ingin berkontribusi pada CodeForge, silakan:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Fork repositori
+2. Buat cabang fitur (`git checkout -b feature/fitur-menakjubkan`)
+3. Commit perubahan Anda (`git commit -m 'Tambahkan fitur menakjubkan'`)
+4. Push ke cabang (`git push origin feature/fitur-menakjubkan`)
+5. Buka Pull Request
 
-## License
+## Lisensi
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Proyek ini dilisensikan di bawah Lisensi MIT - lihat file LICENSE untuk detailnya.
 
-## Contact
+## Kontak
 
-Project Link: [GitHub]([https://github.com/yourusername/codeforge](https://github.com/WILIOP-666/CodeForge))
+Tautan Proyek: [GitHub]([https://github.com/yourusername/codeforge](https://github.com/WILIOP-666/CodeForge))
 
 ---
 
-&copy; 2025 CodeForge - Platform Konversi dan Optimasi Kode Multi-Bahasa
+© 2025 CodeForge - Platform Konversi dan Optimasi Kode Multi-Bahasa
+
+--- 
