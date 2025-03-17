@@ -1,4 +1,3 @@
-Here’s the translation of your text from English to Indonesian, keeping the structure intact:
 
 ---
 
